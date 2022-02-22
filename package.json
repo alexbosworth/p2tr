@@ -1,0 +1,30 @@
+{
+  "author": {
+    "name": "Alex Bosworth",
+    "url": "https://twitter.com/alexbosworth"
+  },
+  "bugs": {
+    "url": "https://github.com/alexbosworth/p2tr/issues"
+  },
+  "description": "Utilities for working with P2TR outputs",
+  "devDependencies": {
+    "@alexbosworth/tap": "15.0.10"
+  },
+  "engines": {
+    "node": ">=12.20"
+  },
+  "keywords": [
+    "bitcoin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "p2tr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexbosworth/p2tr.git"
+  },
+  "scripts": {
+    "test": "tap --branches=1 --functions=1 --lines=1 --statements=1 -t 120 test/keys/*.js test/scripts/*.js"
+  },
+  "version": "1.0.0"
+}

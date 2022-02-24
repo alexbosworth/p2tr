@@ -4,6 +4,23 @@ Utility methods for working with Pay to Taproot outpouts
 
 ## Methods
 
+### `controlBlock`
+
+Assemble a control block for a leaf script spend
+
+    {
+      external_key: <External Public Key Hex String>
+      [internal_key]: <Internal Public Key Hex String>
+      leaf_script: <Leaf Script Hex String>
+      [leaf_version]: <Leaf Script Version Number>
+      script_branches: <Script Branches Object>
+    }
+
+    @returns
+    {
+      block: <Control Block Hex String>
+    }
+
 ### `hashForTree`
 
 Hash a tree of scripts

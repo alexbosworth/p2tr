@@ -4,20 +4,6 @@ Utility methods for working with Pay to Taproot outpouts
 
 ## Methods
 
-### `tweakHash`
-
-Tweak hash
-
-    {
-      hash: <Hash Hex String>
-      public_key: <Public Key Hex String>
-    }
-
-    @returns
-    {
-      hash: <Tagged Tweak Hash Hex String>
-    }
-
 ### `hashForTree`
 
 Hash a tree of scripts
@@ -46,4 +32,18 @@ Hash for leaf script
     @returns
     {
       hash: <Hash Hex String>
+    }
+
+### `tweakHash`
+
+Tweak hash
+
+    {
+      hash: <Hash Hex String>
+      public_key: <Public Key Hex String>
+    }
+
+    @returns
+    {
+      hash: <Tagged Tweak Hash Hex String>
     }

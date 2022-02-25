@@ -1,3 +1,4 @@
+const signHash = require('./sign_hash');
 const tweakHash = require('./tweak_hash');
 
-module.exports = {tweakHash};
+module.exports = {signHash, tweakHash};

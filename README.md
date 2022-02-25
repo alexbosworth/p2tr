@@ -51,6 +51,22 @@ Hash for leaf script
       hash: <Hash Hex String>
     }
 
+### `signHash`
+
+Sign with a tweaked private key
+
+    {
+      [hash]: <Tweak Hash Hex String>
+      private_key: <Internal Private Key Hex String>
+      public_key: <Internal Public Key Hex String>
+      sign_hash: <Hash to Sign Hex String>
+    }
+
+    @returns
+    {
+      signature: <Tweaked Private Key Hex String>
+    }
+
 ### `tweakHash`
 
 Tweak hash
@@ -63,4 +79,18 @@ Tweak hash
     @returns
     {
       hash: <Tagged Tweak Hash Hex String>
+    }
+
+### `v1OutputScript`
+
+Create a SegWit V1 Output Script
+
+    {
+      [hash]: <Hash Hex String>
+      internal_key: <Internal Public Key Hex String>
+    }
+
+    @returns
+    {
+      script: <Output Script Hex String>
     }

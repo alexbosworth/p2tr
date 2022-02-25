@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/alexbosworth/p2tr/issues"
   },
+  "dependencies": {
+    "tiny-secp256k1": "2.2.1"
+  },
   "description": "Utilities for working with P2TR outputs",
   "devDependencies": {
     "@alexbosworth/tap": "15.0.10"
@@ -26,5 +29,5 @@
   "scripts": {
     "test": "tap --branches=1 --functions=1 --lines=1 --statements=1 -t 120 test/keys/*.js test/scripts/*.js"
   },
-  "version": "1.1.0"
+  "version": "1.2.0"
 }

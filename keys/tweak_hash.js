@@ -10,7 +10,7 @@ const tweakTag = 'e80fe1639c9ca050e3af1b39c143c63e429cbceb15d940fbb5c5a1f4af57c5
 /** Tweak hash
 
   {
-    hash: <Hash Hex String>
+    [hash]: <Hash Hex String>
     public_key: <Public Key Hex String>
   }
 

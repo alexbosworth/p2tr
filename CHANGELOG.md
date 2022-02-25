@@ -1,5 +1,10 @@
 # Versions
 
+## 1.2.0
+
+- `signHash`: Add method to sign using the tweaked key
+- `v1OutputScript`: Add method to derive an output script
+
 ## 1.1.0
 
 - `controlBlock`: Add method to derive control block for a script spend witness

@@ -92,5 +92,6 @@ Create a SegWit V1 Output Script
 
     @returns
     {
+      external_key: <External Public Key Hex String>
       script: <Output Script Hex String>
     }

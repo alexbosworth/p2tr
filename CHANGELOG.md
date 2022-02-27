@@ -1,5 +1,9 @@
 # Versions
 
+## 1.3.0
+
+- `v1OutputScript`: Add `external_key` to return the external public key
+
 ## 1.2.0
 
 - `signHash`: Add method to sign using the tweaked key

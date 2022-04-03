@@ -1,6 +1,6 @@
 # Versions
 
-## 1.3.0
+## 1.3.1
 
 - `v1OutputScript`: Add `external_key` to return the external public key
 

@@ -1,5 +1,10 @@
 # Versions
 
+## 1.3.2
+
+- `tweakHash`: Add support for passing an already x-only public key
+- `v1OutputScript`: Add support for passing an already x-only public key
+
 ## 1.3.1
 
 - `v1OutputScript`: Add `external_key` to return the external public key

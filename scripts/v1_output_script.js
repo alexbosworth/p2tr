@@ -9,7 +9,7 @@ const hexAsBuffer = hex => Buffer.from(hex, 'hex');
 const push32 = Buffer.from([32]);
 const OP_1 = Buffer.from([81]);
 const parityByte = output => Buffer.from([!output.parity ? 2 : 3]);
-const shortKey = key =>  key.slice(1, 33);
+const shortKey = key => key.length === 32 ? key : key.slice(1, 33);
 const tweakKey = (key, hash) => xOnlyPointAddTweak(key, hash);
 
 /** Create a SegWit V1 Output Script

@@ -15,6 +15,16 @@ const tests = [
   },
   {
     args: {
+      internal_key: 'd6889cb081036e0faefa3a35157ad71086b123b2b144b649798b494c300a961d',
+    },
+    description: 'Derive v1 segwit output script with x only internal key',
+    expected: {
+      external_key: '0353a1f6e454df1aa2776a2814a721372d6258050de330b3c6d10ee8f4e0dda343',
+      script: '512053a1f6e454df1aa2776a2814a721372d6258050de330b3c6d10ee8f4e0dda343',
+    },
+  },
+  {
+    args: {
       hash: '5b75adecf53548f3ec6ad7d78383bf84cc57b55a3127c72b9a2481752dd88b21',
       internal_key: '02187791b6f712a8ea41c8ecdd0ee77fab3e85263b37e1ec18a3651926b3a6cf27',
     },

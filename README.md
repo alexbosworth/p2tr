@@ -1,6 +1,6 @@
 # P2TR
 
-Utility methods for working with Pay to Taproot outpouts
+Utility methods for working with Pay to Taproot outputs
 
 ## Methods
 

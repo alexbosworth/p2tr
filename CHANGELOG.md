@@ -1,6 +1,6 @@
 # Versions
 
-## 1.3.2
+## 1.3.3
 
 - `tweakHash`: Add support for passing an already x-only public key
 - `v1OutputScript`: Add support for passing an already x-only public key

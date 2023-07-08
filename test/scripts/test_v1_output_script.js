@@ -1,4 +1,5 @@
-const {test} = require('@alexbosworth/tap');
+const {deepEqual} = require('node:assert').strict;
+const test = require('node:test');
 
 const method = require('./../../scripts/v1_output_script');
 
@@ -48,10 +49,10 @@ const tests = [
 ];
 
 tests.forEach(({args, description, error, expected}) => {
-  return test(description, async ({end, rejects, strictSame}) => {
+  return test(description, (t, end) => {
     const res = method(args);
 
-    strictSame(res, expected, 'Got expected result');
+    deepEqual(res, expected, 'Got expected result');
 
     return end();
   });

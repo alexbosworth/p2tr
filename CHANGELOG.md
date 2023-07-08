@@ -1,5 +1,11 @@
 # Versions
 
+## 2.0.0
+
+### Breaking Changes
+
+- Node 16 or higher is now required
+
 ## 1.3.3
 
 - `tweakHash`: Add support for passing an already x-only public key
